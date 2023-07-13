@@ -5,4 +5,7 @@
     <string name="search_tv_quantity">ingrese cantidad</string>
     <string name="search_tv_price">ingrese precio</string>
     <string name="search_bt_search">Buscar</string>
+    <string name="search_bt_sell">Vender</string>
+    <string name="home_tv_title">Free Shop</string>
+    <string name="home_tv_terms_and_conditions">Terminos y condiciones</string>
 </resources>

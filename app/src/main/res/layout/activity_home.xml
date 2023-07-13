@@ -9,12 +9,15 @@
 
     <ImageView
         android:id="@+id/freeShopBackground"
-        android:layout_width="170dp"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="70dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
         app:layout_constraintBottom_toTopOf="@+id/freeShopSeparator2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/background_home" />
 
     <TextView
@@ -23,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="18dp"
         android:fontFamily="@font/roboto"
-        android:text="Free Shop"
+        android:text="@string/home_tv_title"
         android:textColor="@color/white"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
         android:fontFamily="@font/roboto"
-        android:text="Terminos y condiciones"
+        android:text="@string/home_tv_terms_and_conditions"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,12 +71,33 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="193dp"
-        android:layout_height="566dp"
-        app:layout_constraintBottom_toTopOf="@+id/freeShopSeparator2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/freeShopBackground"
-        app:layout_constraintTop_toTopOf="@+id/freeShopSeparator1"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
         tools:listitem="@layout/card_buttons" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="170dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="94dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="660dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
