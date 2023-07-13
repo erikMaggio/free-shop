@@ -1,4 +1,4 @@
-package com.example.freeshop
+package com.example.freeshop.model.response
 
 data class Product(
     val name: String,
