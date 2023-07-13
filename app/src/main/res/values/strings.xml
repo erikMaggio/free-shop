@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Free Shop</string>
+    <string name="search_tv_name">ingrese nombre</string>
+    <string name="search_tv_code">ingrese codigo</string>
+    <string name="search_tv_quantity">ingrese cantidad</string>
+    <string name="search_tv_price">ingrese precio</string>
+    <string name="search_bt_search">Buscar</string>
+    <string name="search_bt_sell">Vender</string>
+    <string name="home_tv_title">Free Shop</string>
+    <string name="home_tv_terms_and_conditions">Terminos y condiciones</string>
+    <string name="favorite_tv_title">Favoritos</string>
+
 </resources>

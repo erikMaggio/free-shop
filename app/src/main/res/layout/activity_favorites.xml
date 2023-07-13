@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
-    tools:context=".FavoritesActivity">
+    android:background="@color/black"
+    tools:context=".ui.FavoritesActivity">
 
     <ImageView
         android:id="@+id/iv_arrow_back_add"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_margin="10dp"
+        android:layout_margin="12dp"
         android:src="@drawable/bt_back_add"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -20,21 +20,19 @@
         android:id="@+id/tv_favorites"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="Favorites"
+        android:layout_marginTop="24dp"
+        android:text="@string/favorite_tv_title"
         android:textColor="@color/white"
-        android:textSize="40sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/iv_arrow_back_add" />
 
     <View
         android:id="@+id/favoritesSeparator"
         android:layout_width="0dp"
         android:layout_height="2dp"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="18dp"
+        android:layout_margin="12dp"
         android:background="@color/medium_grey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,8 +42,7 @@
         android:id="@+id/favoritesRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginHorizontal="20dp"
+        android:layout_margin="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
