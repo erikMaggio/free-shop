@@ -10,7 +10,9 @@
     <ImageView
         android:id="@+id/freeShopBackground"
         android:layout_width="170dp"
-        android:layout_height="665dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/freeShopSeparator2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/background_home" />
@@ -22,7 +24,7 @@
         android:layout_marginTop="18dp"
         android:fontFamily="@font/roboto"
         android:text="Free Shop"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +37,7 @@
         android:layout_marginBottom="28dp"
         android:fontFamily="@font/roboto"
         android:text="Terminos y condiciones"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -47,7 +49,7 @@
         android:layout_marginStart="18dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="18dp"
-        android:background="#7C7C7C"
+        android:background="@color/medium_grey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/freeShopTitle" />
@@ -59,19 +61,19 @@
         android:layout_marginStart="18dp"
         android:layout_marginEnd="18dp"
         android:layout_marginBottom="10dp"
-        android:background="#7C7C7C"
+        android:background="@color/medium_grey"
         app:layout_constraintBottom_toTopOf="@+id/FreeShopBottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="239dp"
-        android:layout_height="587dp"
+        android:layout_width="193dp"
+        android:layout_height="566dp"
         app:layout_constraintBottom_toTopOf="@+id/freeShopSeparator2"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:listitem="@layout/card_buttons"
         app:layout_constraintStart_toEndOf="@+id/freeShopBackground"
-        app:layout_constraintTop_toTopOf="@+id/freeShopSeparator1" />
+        app:layout_constraintTop_toTopOf="@+id/freeShopSeparator1"
+        tools:listitem="@layout/card_buttons" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
