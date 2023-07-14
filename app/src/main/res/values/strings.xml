@@ -9,5 +9,6 @@
     <string name="home_tv_title">Free Shop</string>
     <string name="home_tv_terms_and_conditions">Terminos y condiciones</string>
     <string name="favorite_tv_title">Favoritos</string>
-
+    <string name="delete_product_tv_title">Eliminar Producto</string>
+    <string name="delete_tv_title">Eliminar</string>
 </resources>
