@@ -25,7 +25,7 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/image_search"
+        android:src="@drawable/background_search"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="parent" />
@@ -35,7 +35,7 @@
         android:layout_width="50dp"
         android:layout_margin="12dp"
         android:layout_height="50dp"
-        android:src="@drawable/bt_back_add"
+        android:src="@drawable/bt_back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
