@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020202"
+    android:orientation="vertical"
+    tools:context=".ui.addActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/background_design_add"
+            android:layout_width="match_parent"
+            android:layout_height="366dp"
+            android:src="@drawable/background_add"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/bt_back_add"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/bt_back_add"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/input_name_product"
+            android:elevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="190dp"
+            android:layout_marginBottom="350dp"
+            android:background="#33D9D9D9"
+            android:paddingStart="20dp"
+            android:text="Ingrese nombre"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <EditText
+            app:layout_constraintTop_toTopOf="@+id/input_name_product"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/input_code_product"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="190dp"
+            android:background="#32D9D9D9"
+            android:paddingStart="20dp"
+            android:text="Ingrese Codigo"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            />
+
+        <EditText
+            app:layout_constraintTop_toTopOf="@+id/input_code_product"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/input_cant_product"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="190dp"
+            android:background="#33D9D9D9"
+            android:inputType="number"
+            android:paddingStart="20dp"
+            android:text="Ingrese cantidad"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            app:layout_constraintTop_toTopOf="@+id/input_cant_product"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/input_price_product"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="190dp"
+            android:background="#33D9D9D9"
+            android:inputType="number"
+            android:paddingStart="20dp"
+            android:text="Ingrese precio"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bt_add"
+            android:layout_width="180dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="55dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/bt_add"
+            android:text="Agregar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
