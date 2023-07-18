@@ -3,7 +3,6 @@ package com.example.freeshop.ui
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import com.example.freeshop.R
 import com.example.freeshop.databinding.ActivityHomeBinding
 import com.example.freeshop.model.response.Title

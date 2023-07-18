@@ -16,6 +16,9 @@
             android:name=".ui.AddActivity"
             android:exported="false" />
         <activity
+            android:name=".ui.DeleteActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.FavoritesActivity"
             android:exported="false" />
         <activity
