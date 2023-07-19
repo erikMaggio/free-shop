@@ -3,7 +3,6 @@ package com.example.freeshop.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.freeshop.R
-import com.example.freeshop.databinding.ActivitySearchBinding
 import com.example.freeshop.databinding.ActivitySellBinding
 
 class SellActivity : AppCompatActivity() {

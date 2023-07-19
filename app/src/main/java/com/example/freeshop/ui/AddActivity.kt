@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.freeshop.R
 import com.example.freeshop.databinding.ActivityAddBinding
-import com.example.freeshop.databinding.ActivityLoginBinding
 
 class AddActivity : AppCompatActivity() {
 
