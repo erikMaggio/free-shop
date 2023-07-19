@@ -31,7 +31,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/backButtonSell"
+        android:id="@+id/bt_sell_back"
         android:layout_width="50dp"
         android:layout_margin="12dp"
         android:layout_height="50dp"
