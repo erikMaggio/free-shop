@@ -8,7 +8,7 @@
     tools:context=".ui.FavoritesActivity">
 
     <ImageView
-        android:id="@+id/iv_arrow_back_add"
+        android:id="@+id/bt_fav_back"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_margin="12dp"
@@ -26,7 +26,7 @@
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/iv_arrow_back_add" />
+        app:layout_constraintTop_toBottomOf="@id/bt_fav_back" />
 
     <View
         android:id="@+id/favoritesSeparator"
