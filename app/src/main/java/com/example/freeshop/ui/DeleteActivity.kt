@@ -15,7 +15,7 @@ class DeleteActivity : AppCompatActivity() {
         init()
     }
     fun init (){
-        binding.btDelBack.setOnClickListener{
+        binding.btDeleteBack.setOnClickListener{
             onBackPressed()
         }
     }
