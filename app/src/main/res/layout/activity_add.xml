@@ -32,24 +32,21 @@
 
         <EditText
             android:id="@+id/input_name_product"
-            android:elevation="5dp"
             android:layout_width="match_parent"
             android:layout_height="28dp"
             android:layout_marginStart="25dp"
             android:layout_marginEnd="190dp"
             android:layout_marginBottom="350dp"
             android:background="#33D9D9D9"
+            android:elevation="5dp"
+            android:hint="Ingrese nombre"
             android:paddingStart="20dp"
-            android:text="Ingrese nombre"
-            android:textColor="@color/white"
+            android:textColorHint="@color/white"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <EditText
-            app:layout_constraintTop_toTopOf="@+id/input_name_product"
-            app:layout_constraintStart_toStartOf="parent"
             android:id="@+id/input_code_product"
             android:layout_width="match_parent"
             android:layout_height="28dp"
@@ -57,16 +54,16 @@
             android:layout_marginTop="60dp"
             android:layout_marginEnd="190dp"
             android:background="#32D9D9D9"
+            android:hint="Ingrese Codigo"
             android:paddingStart="20dp"
-            android:text="Ingrese Codigo"
-            android:textColor="@color/white"
+            android:textColorHint="@color/white"
             android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/input_name_product"
 
             />
 
         <EditText
-            app:layout_constraintTop_toTopOf="@+id/input_code_product"
-            app:layout_constraintStart_toStartOf="parent"
             android:id="@+id/input_cant_product"
             android:layout_width="match_parent"
             android:layout_height="28dp"
@@ -74,15 +71,15 @@
             android:layout_marginTop="70dp"
             android:layout_marginEnd="190dp"
             android:background="#33D9D9D9"
+            android:hint="Ingrese cantidad"
             android:inputType="number"
             android:paddingStart="20dp"
-            android:text="Ingrese cantidad"
-            android:textColor="@color/white"
-            android:textStyle="bold" />
+            android:textColorHint="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/input_code_product" />
 
         <EditText
-            app:layout_constraintTop_toTopOf="@+id/input_cant_product"
-            app:layout_constraintStart_toStartOf="parent"
             android:id="@+id/input_price_product"
             android:layout_width="match_parent"
             android:layout_height="28dp"
@@ -90,17 +87,17 @@
             android:layout_marginTop="60dp"
             android:layout_marginEnd="190dp"
             android:background="#33D9D9D9"
+            android:hint="Ingrese precio"
             android:inputType="number"
             android:paddingStart="20dp"
-            android:text="Ingrese precio"
-            android:textColor="@color/white"
-            android:textStyle="bold" />
+            android:textColorHint="@color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/input_cant_product" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/bt_add"
             android:layout_width="180dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
             android:layout_height="55dp"
             android:layout_marginEnd="40dp"
             android:layout_marginBottom="40dp"
@@ -109,7 +106,9 @@
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="23sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
