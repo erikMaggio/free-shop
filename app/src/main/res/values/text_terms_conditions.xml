@@ -1,0 +1,26 @@
+<resources>
+    <string name="terms_and_conditions">
+            Bienvenido a Free-Shop\n\n
+            Al utilizar esta aplicación, aceptas cumplir con los siguientes términos y condiciones:\n\n
+
+            1. Uso Apropiado:\n\n
+            Debes utilizar la aplicación de manera adecuada y respetuosa. No debes realizar ninguna acción que pueda afectar la funcionalidad de la aplicación o comprometer la seguridad de los datos.\n\n
+
+            2. Responsabilidad del Usuario:\n\n
+            Eres el único responsable de las acciones que realices a través de la aplicación. Cualquier contenido que publiques o modifiques debe ser apropiado y no infringir los derechos de terceros.\n\n
+
+            3. Privacidad de los Datos:\n\n
+            Respetamos tu privacidad y protegemos tus datos personales de acuerdo con nuestra política de privacidad. Al utilizar la aplicación, aceptas las condiciones establecidas en dicha política.\n\n
+
+            4. Propiedad Intelectual:\n\n
+            Todo el contenido proporcionado por la aplicación, incluidos textos, imágenes, gráficos y logotipos, están protegidos por derechos de autor y propiedad intelectual. No está permitida la reproducción o distribución no autorizada del contenido.\n\n
+
+            5. Modificaciones en la Aplicación:\n\n
+            Nos reservamos el derecho de realizar cambios o actualizaciones en la aplicación sin previo aviso. Esto puede incluir agregar o eliminar características, corregir errores y mejorar el rendimiento.\n\n
+
+            ¡Gracias por usar nuestra aplicación! Si tienes alguna pregunta o inquietud, por favor contáctanos.\n\n
+
+            Fecha de entrada en vigencia:\n 23 de julio de 2023\n\n
+
+    </string>
+</resources>
