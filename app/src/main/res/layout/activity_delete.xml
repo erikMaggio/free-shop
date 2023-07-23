@@ -109,6 +109,7 @@
         android:background="@drawable/btn_free_shop"
         android:fontFamily="sans-serif"
         android:text="@string/delete_bt_title"
+        android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
