@@ -17,7 +17,9 @@ class HomeActivity : AppCompatActivity() {
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        initTerms()
         initRecyclerView(getItem())
+
     }
 
     private fun initRecyclerView(list: List<Title>) {
@@ -48,6 +50,13 @@ class HomeActivity : AppCompatActivity() {
         }
         miItem = item
         startActivity(intent)
+    }
+
+    fun initTerms() {
+        binding.tvTermsConditions.setOnClickListener {
+            val intent = Intent(this, TermsActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 }
